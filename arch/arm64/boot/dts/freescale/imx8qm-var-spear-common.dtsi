@@ -404,6 +404,7 @@
 
 		ethphy0: ethernet-phy@0 {
 			compatible = "ethernet-phy-ieee802.3-c22";
+			adi,rx-internal-delay-ps = <1600>;
 			at803x,vddio-1p8v;
 			at803x,eee-disabled;
 			reg = <0>;
@@ -411,6 +412,7 @@
 
 		ethphy1: ethernet-phy@1 {
 			compatible = "ethernet-phy-ieee802.3-c22";
+			adi,rx-internal-delay-ps = <1600>;
 			at803x,vddio-1p8v;
 			at803x,eee-disabled;
 			reg = <1>;
